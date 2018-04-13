@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <meta name="author" content="Nicolás Espina">
+    <meta name="keywords" content="Resumen Curricular, Presentación ,Hoja de Vida ,Curriculum Vitae">
+    <meta name="description" content="Curriculum Vitae de Nicolás Maximiliano Espina Véliz">
+      <title> Curriculum Vitae de Nicolás Maximiliano Espina Véliz </title>
+  </head>
+  <body>
+    <header>
+      <svg width="200px" height="200px" viewBox="0 0 300 300">
+        <image width="400px" height="400px" x="0" y="0"xlink:href="img/LogoNicolasEspina.svg" alt="LogoNicolasEspina"></image>
+      </svg>
+      <center>  <h1 id="inicio" autofocus> Curriculum Vitae  </h1></center>
+      <center><h1>Nicolás Maximiliano Espina Véliz </h1></center>
+    </header>
+     <section>
+      <h2> Datos Personales</h2>
+      <article>
+        <ul>
+        <li> <p><strong> Nombres:</strong> Nicolás Maximiliano </p></li>
+        <li> <p><strong> Apellidos:</strong> Espina Véliz  </p></li>
+        <li> <p><strong> Fecha de Nacimiento:</strong> 25 de Febrero de 1984  </p></li>
+        <li> <p><strong> Lugar de Nacimiento:</strong> Puerto Natales , XII REgión  </p></li>
+        </ul>
+      </article>
+      <h3> Menu de Navergación </h3>
+        <nav>
+          <ul>
+            <li> <a href="index.html"> Inicio </a> </li>
+            <li> <a href="educacion.html"> Educación </a> </li>
+            <li> <a href="experiencia.html"> Experiencia </a> </li>
+          </ul>
+        </nav>
+      </section>
+      <section>
+        <h2> Educación </h2>
+        <article>
+          <tbody>
+            <p title= "Formación Academica"> Formación Academica Profesional </p>
+            <table border="2">
+              <tr>
+                <th> Año </th>
+                <th> Institución </th>
+                <th> Carrera Diplomado o  Curso </th>
+                <th> Termino </th>
+                <th> Chile </th>
+              </tr>
+              <tr>
+                <td> 2013 </td>
+                <td> Santo Tomas </td>
+                <td> Curso de Formación: Experto en Gestión de Venta Logística </td>
+                <td> Si </td>
+                <td> Chile </td>
+              </tr>
+              <tr>
+                <td> 2010 </td>
+                <td> Universidad de Santiago de Chile </td>
+                <td> Diplomado Gestión Logística de Producción y Distribución </td>
+                <td> Si </td>
+                <td> Chile </td>
+              </tr>
+              <tr>
+                <td> 2010 </td>
+                <td> Universidad de Santiago de Chile </td>
+                <td> Diplomado de Gestión Logística de Abastecimiento y Adquisiciones </td>
+                <td> Si </td>
+                <td> Chile </td>
+              </tr>
+              <tr>
+                <td> 2006 </td>
+                <td> Universidad de La Salle </td>
+                <td> Intercambio Internacional: Comercio y Negocios internacionales  </td>
+                <td> Si</td>
+                <td> Mexico </td>
+              </tr>
+              <tr>
+                <td> 2004 </td>
+                <td> Duoc UC </td>
+                <td> Ingenería en Negocios Internacionales </td>
+                <td> Si </td>
+                <td> Chile </td>
+              </tr>
+            </table>
+          </tbody>
+        </article>
+      </br>
+      <form name="frm_agregareducacion" autocomplete="on">
+      <fieldset>
+        <legend> Agregar Formación Academica </legend>
+        <p>
+          <label for="Año de Estudio"><strong> Seleccione el que Cursó: </strong></label>
+        </p>
+      <p>
+        <select name="Año..." required>
+          <option value="1"> 2018 </option>
+          <option value="1"> 2017 </option>
+          <option value="1"> 2016 </option>
+          <option value="1"> 2015 </option>
+          <option value="1"> 2014 </option>
+          <option value="1"> 2013 </option>
+          <option value="1"> 2012 </option>
+          <option value="1"> 2011 </option>
+          <option value="1"> 2010 </option>
+          <option value="1"> 2009 </option>
+          <option value="1"> 2008 </option>
+          <option value="1"> 2007 </option>
+          <option value="1"> 2006 </option>
+          <option value="1"> 2005 </option>
+          <option value="1"> 2004 </option>
+          <option value="1"> 2003 </option>
+          <option value="1"> 2002 </option>
+        </select>
+      </p>
+      <p>
+        <label for="casa_de_Estudios"><strong> Institución </strong> </label>
+        </br>
+        <input type="text" name="Casa_de_Estudios" placeholder= "Ej: Universidad de Chile" maxlength="50" required>
+      </p>
+      <p>
+        <label for="estudios"><strong>Indique la Carrera, Diplomado, Curso u otro </strong></label>
+        </br>
+        <textarea name="estudios"rows="3" cols="40" maxlength="100" required></textarea>
+      </p>
+      <p>
+        <label for="país"><strong> País </strong> </label>
+        </br>
+        <input type="text" name="pais_donde_estudio" placeholder= "Ej: Chile" maxlength="12" required >
+      </p>
+      <p>
+        <label for="carrera_Terminada"><strong> ¿Concluida? </strong></label>
+        <input type="radio" name="carrera_Terminada" > Si
+        <input type="radio" name="carrera_Terminada" > No
+      </p>
+      <p>
+        <input type="submit" value="Enviar">
+      </p>
+        <a href="#inicio"> Volver al Inicio de la Página </a>
+        </fieldset>
+  </body>
+  <footer>
+    <p> Copyright (c) 2018, Todos los Derechos Reservados. Sitio Desarrollado por Nicolás Espina</p>
+    <ul>
+      <li> <a href="mailto:nicolas.espina@hotmail.com"> E-Mail: nicolas.espina@hotmail.com </a> </li>
+      <li><a href="https://www.linkedin.com/in/nicol%C3%A1s-espina-91797720/"> LinkedIn </a></li>
+      <li> Telefono: +56 9 76690599 </li>
+      <li> Dirección: Pasaje Uno 0314, San Bernardo, Región Metropolitana </li>
+  </footer>
+</html>
